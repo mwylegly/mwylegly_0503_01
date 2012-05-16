@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2141C8155B110100928D4A /* test_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A2141C7155B110100928D4A /* test_img.jpg */; };
 		7AA8A49F15530D6C00606EC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA8A49E15530D6C00606EC2 /* AVFoundation.framework */; };
 		7AA8A4A115530D6C00606EC2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA8A4A015530D6C00606EC2 /* CoreFoundation.framework */; };
 		7AA8A4A315530D6C00606EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA8A4A215530D6C00606EC2 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A2141C7155B110100928D4A /* test_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_img.jpg; sourceTree = "<group>"; };
 		7AA8A49A15530D6C00606EC2 /* mwylegly_0503_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mwylegly_0503_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA8A49E15530D6C00606EC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7AA8A4A015530D6C00606EC2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -162,6 +164,7 @@
 		7AA8A4B215530D6C00606EC2 /* mwylegly_0503_01 */ = {
 			isa = PBXGroup;
 			children = (
+				7A2141C7155B110100928D4A /* test_img.jpg */,
 				7AA8A4BF15530D6C00606EC2 /* C4WorkSpace.m */,
 				7AA8A4C315530D6C00606EC2 /* Logos */,
 				7AA8A4D815530D6C00606EC2 /* Framework */,
@@ -314,6 +317,7 @@
 				7AA8A4F915530D6D00606EC2 /* C4Sky.png in Resources */,
 				7AA8A4FB15530D6D00606EC2 /* C4Table.png in Resources */,
 				7AA8A4FD15530D6D00606EC2 /* inception.mov in Resources */,
+				7A2141C8155B110100928D4A /* test_img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +444,7 @@
 				7AA8A50215530D6D00606EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
